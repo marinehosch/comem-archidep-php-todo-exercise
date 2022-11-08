@@ -9,7 +9,7 @@ define('BASE_URL', getenv('TODOLIST_BASE_URL') ?: '/comem-archidep-php-todo-exer
 
 // Database connection parameters.
 define('DB_USER', getenv('TODOLIST_DB_USER') ?: 'todolist');
-define('DB_PASS', getenv('TODOLIST_DB_PASS'));
+define('DB_PASS', getenv('TODOLIST_DB_PASS') ?: 'chAngeMeN0w!');
 define('DB_NAME', getenv('TODOLIST_DB_NAME') ?: 'todolist');
 define('DB_HOST', getenv('TODOLIST_DB_HOST') ?: '127.0.0.1');
 define('DB_PORT', getenv('TODOLSIT_DB_PORT') ?: '3306');
